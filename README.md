@@ -100,7 +100,7 @@ src/
 │   ├── Dashboard.tsx   # Dashboard displaying all shopping lists
 │   └── ListDetails.tsx # Internal items controller and WhatsApp integration
 ├── App.tsx             # Main dynamic screen/route orchestrator
-├── index.css           # Tailwind v4 main entry point (@import "tailwindcss")
+├── App.css           # Tailwind v4 main entry point (@import "tailwindcss")
 └── main.tsx            # React initialization entry point
 
 ```
