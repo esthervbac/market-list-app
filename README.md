@@ -36,7 +36,7 @@ Before you begin, make sure you have installed on your machine:
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/your-username/your-frontend-repository.git](https://github.com/your-username/your-frontend-repository.git)
+   git clone https://github.com/your-username/your-frontend-repository.git
    cd your-frontend-repository
    ```
 1. Install the dependencies:
@@ -49,7 +49,7 @@ Before you begin, make sure you have installed on your machine:
    Create a .env file in the root directory of the project and add your API URL (local or hosted on Render) using Vite's mandatory prefix:
 
 ```bash
-    VITE_API_URL=[https://api-crud-market-list.onrender.com](https://api-crud-market-list.onrender.com)
+    VITE_API_URL=https://api-crud-market-list.onrender.com
 ```
 
 3. Start the development server:
@@ -63,24 +63,43 @@ Before you begin, make sure you have installed on your machine:
 
 Inside the package.json file, you can run the following commands:
 
-npm start or npm run dev: Starts Vite's local development server.
+```bash
+    npm start
+```
 
-npm run build: Compiles and builds the optimized production version of the project (TypeScript + Vite Build).
+or
 
-npm run preview: Runs the locally built production files for testing purposes before deployment.
+```bash
+    npm run dev
+```
+
+Starts Vite's local development server.
+
+```bash
+    npm run build
+```
+
+Compiles and builds the optimized production version of the project (TypeScript + Vite Build).
+
+```bash
+    npm run preview
+```
+
+Runs the locally built production files for testing purposes before deployment.
 
 ## 🗺️ Project Structure
 
+```text
 src/
 ├── api/
-│ └── client.ts # Axios setup + automated JWT Token Interceptor
+│   └── client.ts       # Axios setup + automated JWT Token Interceptor
 ├── components/
-│ ├── Login.tsx # Authentication screen
-│ ├── Dashboard.tsx # Dashboard displaying all shopping lists
-│ └── ListDetails.tsx # Internal items controller and WhatsApp integration
-├── App.tsx # Main dynamic screen/route orchestrator
-├── index.css # Tailwind v4 main entry point (@import "tailwindcss")
-└── main.tsx # React initialization entry point
+│   ├── Login.tsx       # Authentication screen
+│   ├── Dashboard.tsx   # Dashboard displaying all shopping lists
+│   └── ListDetails.tsx # Internal items controller and WhatsApp integration
+├── App.tsx             # Main dynamic screen/route orchestrator
+├── index.css           # Tailwind v4 main entry point (@import "tailwindcss")
+└── main.tsx            # React initialization entry point
 
 ## 🔒 Back-end Integration
 
@@ -93,3 +112,4 @@ This project consumes an Express API that handles the following REST routes:
 - GET /shopping-list/:id - Fetches the details and items of a specific list.
 - PUT /shopping-list/:id - Updates the list by overwriting the items array.
 - DELETE /shopping-list/:id - Permanently deletes a specific list.
+```
