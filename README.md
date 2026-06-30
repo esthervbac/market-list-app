@@ -116,7 +116,3 @@ This project consumes an Express API that handles the following REST routes:
 - GET /shopping-list/:id - Fetches the details and items of a specific list.
 - PUT /shopping-list/:id - Updates the list by overwriting the items array.
 - DELETE /shopping-list/:id - Permanently deletes a specific list.
-
-```
-
-```
