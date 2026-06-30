@@ -2,6 +2,8 @@
 
 A responsive (Web and Mobile) market list management application integrated with a REST API featuring JWT authentication. The app allows users to create lists, manage products internally (add and remove items), and share the final list content directly via WhatsApp.
 
+To access the app online you can check: https://esthervbac.github.io/market-list-app/ or
+
 ## 🚀 Technologies Used
 
 - **React** (with Hooks for state management)
@@ -101,6 +103,8 @@ src/
 ├── index.css           # Tailwind v4 main entry point (@import "tailwindcss")
 └── main.tsx            # React initialization entry point
 
+```
+
 ## 🔒 Back-end Integration
 
 This project consumes an Express API that handles the following REST routes:
@@ -112,4 +116,7 @@ This project consumes an Express API that handles the following REST routes:
 - GET /shopping-list/:id - Fetches the details and items of a specific list.
 - PUT /shopping-list/:id - Updates the list by overwriting the items array.
 - DELETE /shopping-list/:id - Permanently deletes a specific list.
+
+```
+
 ```
