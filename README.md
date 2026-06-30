@@ -38,7 +38,7 @@ Before you begin, make sure you have installed on your machine:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/your-frontend-repository.git
+   git clone https://github.com/esthervbac/market-list-app.git
    cd your-frontend-repository
    ```
 1. Install the dependencies:
