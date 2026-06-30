@@ -101,6 +101,8 @@ src/
 ├── index.css           # Tailwind v4 main entry point (@import "tailwindcss")
 └── main.tsx            # React initialization entry point
 
+```
+
 ## 🔒 Back-end Integration
 
 This project consumes an Express API that handles the following REST routes:
@@ -112,4 +114,3 @@ This project consumes an Express API that handles the following REST routes:
 - GET /shopping-list/:id - Fetches the details and items of a specific list.
 - PUT /shopping-list/:id - Updates the list by overwriting the items array.
 - DELETE /shopping-list/:id - Permanently deletes a specific list.
-```
