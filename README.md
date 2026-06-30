@@ -2,6 +2,8 @@
 
 A responsive (Web and Mobile) market list management application integrated with a REST API featuring JWT authentication. The app allows users to create lists, manage products internally (add and remove items), and share the final list content directly via WhatsApp.
 
+To access the app online you can check: https://esthervbac.github.io/market-list-app/ or
+
 ## 🚀 Technologies Used
 
 - **React** (with Hooks for state management)
@@ -36,7 +38,7 @@ Before you begin, make sure you have installed on your machine:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/your-frontend-repository.git
+   git clone https://github.com/esthervbac/market-list-app.git
    cd your-frontend-repository
    ```
 1. Install the dependencies:
