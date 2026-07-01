@@ -3,6 +3,8 @@
 A responsive (Web and Mobile) market list management application integrated with a REST API featuring JWT authentication. The app allows users to create lists, manage products internally (add and remove items), and share the final list content directly via WhatsApp.
 
 To access the app online you can check: https://esthervbac.github.io/market-list-app/ or https://market-list-app-tan.vercel.app/
+App's login: usuario@email.com
+App's password: 123456
 
 ## 🚀 Technologies Used
 
